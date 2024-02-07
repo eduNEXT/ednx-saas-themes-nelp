@@ -1,0 +1,19 @@
+{
+  "name": "bragi-alpha",
+  "version": "1.0.0",
+  "description": "paragon connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tokens": "paragon build-tokens --build-dir  ./lms/static/css/ --source ./lms/tokens/ ",
+    "replace-variables": "paragon replace-variables -p  ./lms/static/sass/partials/lms/theme/  -t usage"
+  },
+  "keywords": [
+    "paragon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@edx/paragon": "^22.0.0-alpha.13"
+  }
+}
